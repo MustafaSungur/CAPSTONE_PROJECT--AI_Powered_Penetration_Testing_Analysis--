@@ -42,7 +42,7 @@ This RESTful API is developed using Node.js and the Express framework. It is com
 ## Development and Testing
 **- Follow these steps to set up and test the application:**
 
-#### Setting up the Frontend
+### Setting up the Frontend
 1) Clone the frontend repository from GitHub.
 2) Navigate to the frontend directory and install dependencies:
 ```
@@ -62,7 +62,7 @@ npm run dev
 ```
 This will serve the frontend on a local server, typically at http://localhost:3000.
 
-#### Setting up the Backend
+### Setting up the Backend
 1) Clone the backend repository if it is separate or navigate to the backend directory.
 2) Install the necessary backend dependencies:
 ```
