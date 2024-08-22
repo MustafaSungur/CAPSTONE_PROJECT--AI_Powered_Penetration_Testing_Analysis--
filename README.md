@@ -43,33 +43,33 @@ This RESTful API is developed using Node.js and the Express framework. It is com
 **- Follow these steps to set up and test the application:**
 
 #### Setting up the Frontend
-1. Clone the frontend repository from GitHub.
-2. Navigate to the frontend directory and install dependencies:
+1) Clone the frontend repository from GitHub.
+2) Navigate to the frontend directory and install dependencies:
 ```
 npm install
 ```
 
-1. Setting up the Frontend Environment
+3) Setting up the Frontend Environment
 - Create a .env file in the root of your frontend project directory and include the following variables:
 ```
 VITE_BASE_URL=http://localhost:<backend_port>
 ```
 Replace **backend_port** with the port number your backend server is listening on, typically the same value you set for PORT in your backend .env.
 
-1.  Start the frontend development server:
+4) Start the frontend development server:
 ```
 npm run dev
 ```
 This will serve the frontend on a local server, typically at http://localhost:3000.
 
 #### Setting up the Backend
-1. Clone the backend repository if it is separate or navigate to the backend directory.
-2. Install the necessary backend dependencies:
+1) Clone the backend repository if it is separate or navigate to the backend directory.
+2) Install the necessary backend dependencies:
 ```
 npm install
 ```
 
-1. Setting up the Backend Environment
+3) Setting up the Backend Environment
 - Create a .env file in the root of your backend project directory and include the following variables:
 ```
 API_KEY=<your_gemini_api_key>   # API key for Gemini
@@ -78,7 +78,7 @@ PORT=<your_preferred_port>      # Port number the backend server will listen on
 ```
 Replace **your_gemini_api_key**, **your_mongodb_uri**, and** your_preferred_port** with your actual API key for Gemini, MongoDB connection string, and the port you wish to use, respectively.
 
-1.  Start the backend server:
+4)  Start the backend server:
 ```
 npm run dev
 ```
