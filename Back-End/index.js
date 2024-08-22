@@ -32,4 +32,4 @@ conn();
 app.use("/api/auth", authRoute);
 app.use("/api/osint", tokenControll, osintRoute);
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, '10.182.0.4', () => console.log(`Server Port:${PORT}`));
+app.listen(PORT, () => console.log(`Server Port:${PORT}`));
